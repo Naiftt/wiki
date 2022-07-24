@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    
+    <head>
+        <title> Page Already Exists!</title>
+    </head>
+    <style>
+        .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -50px;
+            margin-left: -230px;
+            width: 500px;
+            height: 500px;
+            color:black;
+        }
+        </style>
+    <body>
+        <div class = 'center'>
+            <h1> THE PAGE ALREADY EXISTS! </h1>
+            <p style="margin-left: 100px;"> <a href = "{% url 'create' %}">
+                    Click here to go back to create another page
+                </a>
+            </p>
+        </div>
+    </body>
